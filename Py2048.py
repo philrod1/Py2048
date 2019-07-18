@@ -2,7 +2,6 @@ import random
 
 
 class Board:
-
     grid = [
         [None, None, None, None],
         [None, None, None, None],
