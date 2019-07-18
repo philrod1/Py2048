@@ -4,8 +4,12 @@ from Board import Board
 def main():
     board = Board()
     board.populate_left_move()
-    for v in range(0, 0xFFFF + 1):
-        print('%04X => %04X' % (v, board.reverse_row(v)))
+    board.print_board()
+    board.add_random()
+    board.print_board()
+    board.add_random()
+    board.print_board()
+
 
 
 if __name__ == "__main__":
